@@ -1,5 +1,5 @@
 class HelloWorldController < ApplicationController
   def home
-    render :text => "hello world. #{ENV["PWD"]}"
+    render :text => "hello world from #{ENV["PWD"]}"
   end
 end
